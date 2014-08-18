@@ -1,0 +1,8 @@
+buildscript {
+  repositories { maven { url 'http://clojars.org/repo' } }
+  dependencies {
+    classpath 'clojuresque:clojuresque:1.7.0'
+  }
+}
+
+apply plugin: 'clojure'
